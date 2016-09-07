@@ -81,13 +81,13 @@ For Enable signup module
 			<?php 
 			if (Common_model::$global_config['system_config']['enable_signup'] == 0)
 			{?>
-			<a href="/signup/">Signup up now!</a> 
+			<a href="<?php echo base_url(); ?>signup/">Signup up now!</a> 
 			<?php
 			}
 			?>
 			</p>
 			
-			<p style='text-align:right;' class="col-md-6 margin-t-10 no-padding"><a href="forgotpassword">Forgot Password?</a></p>
+			<p style='text-align:right;' class="col-md-6 margin-t-10 no-padding"><a href="<?php echo base_url(); ?>forgotpassword/">Forgot Password?</a></p>
 		</div>
 <!--/*********************************/-->
 
